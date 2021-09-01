@@ -48,26 +48,18 @@ scouts</div>
 
 	<div style="height:100px;display:block;"> </div>
 	<div id="Evénements">
-        <h3>Rendez-vous le ????? pour découvrir notre nouvelle assication</h3>
+        <h3>Rendez-vous le ?? septembre 2021 pour découvrir notre nouvelle association</h3>
 	</div>
 	
 	<div style="height:100px;display:block;"> </div>
 	<div class="formulaire" id="Contact">
-                <h3>Formulaire</h3>
-                <?php include('mail.php'); ?>
-                <form method="post" action="mail.php">
-                    <p><input type="text" name="nom" placeholder=" Nom" required /></p>
-                    <p><input type="email" name="mail" placeholder=" E-mail" required /></p>
-                    <p><input type="text" name="objet" placeholder=" Objet" /></p>
-            </div>
-            <div class="formulaire">
-                    <p><textarea name="message" placeholder=" Message" required></textarea></p>
-                    <input type="submit" value="Envoyer" class="buttonFormulaire"/>
-                </form>
-            </div>
-
-
-
+      <h3>Formulaire</h3><a href="mailto:info@asul.ch">info@asul.ch</a>
+      <form method="GET" action="mailto:info@asul.ch">
+          <p><input type="objet" name="subject" placeholder=" Objet" /></p>
+          <p><textarea name="body" placeholder=" Message" required></textarea></p>
+          <input type="submit" value="Envoyer" class="buttonFormulaire"/>
+      </form>
+  </div>
 </html>
 
 

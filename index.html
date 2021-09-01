@@ -1,0 +1,73 @@
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASUL</title>
+	<link rel="icon" type="image/png" sizes="16x16" href="images/logo ASUL violet.png">
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+
+    
+	<div class="linear-gradient" id="decalage">
+        <h1>Association du Scoutisme <br> Universitaire de Lausanne</h1>
+		<p align="center">
+		<img src="images/logo ASUL violet.png" alt="Logo SES" width="200px">
+		</p>
+	</div>
+	<div>
+		<nav>
+			<ul id="menu">
+				<li><a href="#Présentation"><b>Présentation</b></a></li>
+				<li><a href="#Evénements"><b>Evénements</b></a></li>
+				<li><a href="#Contact"><b>Contact</b></a></li>
+			</ul>
+		</nav>	
+	</div>			
+	<div style="height:100px;display:block;"> </div>
+	<div id="Présentation">
+        <h3>Une association pour ...</h3>
+	</div>
+	<div style="height:30px;display:block;"> </div>
+	<div class="blocRond">Permettre aux étudiants de l’EPFL et l’UNIL de continuer
+ou reprendre leurs activités scoutes dans les mouvements de la région</div>
+	<div style="height:30px;display:block;"> </div>
+	<div class="blocRond">Faire découvrir le scoutisme aux étudiants de l’EPFL et
+l’UNIL</div>
+	<div style="height:30px;display:block;"> </div>
+	<div class="blocRond">Organiser et favoriser les échanges sur le
+développement du scoutisme en milieu universitaire</div>
+	<div style="height:30px;display:block;"> </div>
+	<div class="blocRond">Échanger et partager entre les différents mouvements
+scouts</div>
+
+	<div style="height:100px;display:block;"> </div>
+	<div id="Evénements">
+        <h3>Rendez-vous le ????? pour découvrir notre nouvelle assication</h3>
+	</div>
+	
+	<div style="height:100px;display:block;"> </div>
+	<div class="formulaire" id="Contact">
+                <h3>Formulaire</h3>
+                <?php include('mail.php'); ?>
+                <form method="post" action="mail.php">
+                    <p><input type="text" name="nom" placeholder=" Nom" required /></p>
+                    <p><input type="email" name="mail" placeholder=" E-mail" required /></p>
+                    <p><input type="text" name="objet" placeholder=" Objet" /></p>
+            </div>
+            <div class="formulaire">
+                    <p><textarea name="message" placeholder=" Message" required></textarea></p>
+                    <input type="submit" value="Envoyer" class="buttonFormulaire"/>
+                </form>
+            </div>
+
+
+
+</html>
+
+

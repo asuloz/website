@@ -2,6 +2,11 @@
   background: linear-gradient(150deg, #F0C9F8, white);
 }
 
+#topPage{
+	margin: auto;
+	width: 100%;
+}
+
 /* Titre*/
 h1 {
 	color: #9B35B0;
@@ -90,6 +95,29 @@ h3 {
       right: 0;
       }
 
+/* Groupes */	
+
+body {text-align: center;} /* Pour centrer dans IE */
+
+table {
+	background-color: none;
+	margin: 0 auto;
+	border-spacing: 5px 1rem;
+} /* Pour centrer dans FF */
+
+
+.groupe {
+	color: #6B137E;
+}
+
+.ville {
+	color: #6B137E;
+}
+  
+.groupe:hover {
+	color: #9B35B0;
+}
+
 /* Formulaire */
 .formulaire {
 	color: #6B137E;
@@ -135,3 +163,22 @@ h3 {
       opacity: 1;
       right: 0;
       }
+	 
+
+/* RESPONSIVE */
+@media (min-width: 480px) and (max-width: 780px)
+{
+.linear-gradient {
+  background: linear-gradient(150deg, #F0C9F8, white);
+  margin: auto;
+	width: 100%;
+}	
+}
+
+@media (min-width: 781px) and (max-width: 979px)
+{
+.linear-gradient {
+  background: linear-gradient(150deg, #F0C9F8, white);
+  width = 100%;
+}	
+}

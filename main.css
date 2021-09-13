@@ -163,7 +163,51 @@ table {
       opacity: 1;
       right: 0;
       }
-	 
+
+
+/* Mentions légales / Copyright */
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.container {
+  width: 95%;
+  margin: 10px;
+  color: #6B137E;
+}
+
+.copyright{
+	text-align: right;
+}
+
+.mentionsLegales{
+	text-align: left;
+}
+.mentionsLegalesColor{
+}
+.mentionsLegalesColor:hover{
+      color: #9B35B0;
+}
+
+/* Bandeau LOGOS*/
+body{
+margin:0px;
+}
+#header{
+height:120px;
+background:#F1EDF1;
+}
+
+
+.img-responsive{
+    max-width: 25%;
+	margin:0 3%; /* 10px a droite et a gauche de l image */
+	padding:0;
+    height: auto;
+
+}
+
 
 /* RESPONSIVE */
 @media (min-width: 480px) and (max-width: 780px)
@@ -182,3 +226,4 @@ table {
   width = 100%;
 }	
 }
+

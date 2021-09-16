@@ -69,8 +69,8 @@ nav a{
 }
 
 nav a:hover{
-	color: gold;
-	border-bottom: 2px solid gold;
+	color: #D1D1D1;
+	border-bottom: 2px solid #D1D1D1;
 }
 
 /* Présentation*/
@@ -81,16 +81,16 @@ h3 {
 }
 
 .blocRond {
-	background-color: #E2A2F0;
+	background-color: #FCEDFC;
 	border-radius: 50px;
-	border: 2px solid#9B35B0;
+	border: 2px solid#6B137E;
 	padding: 10px;
 	width: max-content;
 	margin: auto;"
 }
 
 .blocRond:hover {
-      background-color: #f7c2f9;
+      background-color: #FFE5FF;
       }
 .blocRond:hover span {
       padding-right: 25px;

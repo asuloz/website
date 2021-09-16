@@ -218,17 +218,16 @@ background:#F1EDF1;
 @media (min-width: 480px) and (max-width: 780px)
 {
 .linear-gradient {
-  background: linear-gradient(150deg, #F0C9F8, white);
-  margin: auto;
-	width: 100%;
+  h1 {
+    font-size: 2.5em;
+  }
 }	
 }
 
 @media (min-width: 781px) and (max-width: 979px)
 {
 .linear-gradient {
-  background: linear-gradient(150deg, #F0C9F8, white);
-  width = 100%;
+  
 }	
 }
 

@@ -2,6 +2,11 @@ p {
 	color: #6B137E;
 }
 
+body {
+	font-size: 100%;
+	text-align: center;
+} /* Pour centrer dans IE */
+
 
 .linear-gradient {
   background: linear-gradient(150deg, #F0C9F8, white);
@@ -18,6 +23,8 @@ h1 {
 	font-size: 5em;
 	text-align: center
 }
+
+
 
 /* Menu */
 #menu {
@@ -74,11 +81,49 @@ nav a:hover{
 }
 
 /* Présentation*/
-h3 {
-	color: #6B137E;
-	font-size: 3em;
-	text-align: center
+.presentationEtudiant {
+	/*width: max-content;*/
+	color: #8D8C8C;
+	border: 7px purple solid;
 }
+
+.purpletext {
+	color: #6B137E;
+}
+h3 {
+	font-size: 3em;
+	text-align: center;
+	width: 75%;
+	position: relative;
+	margin: auto;
+}
+
+h4 {
+	font-size: 2em;
+	text-align: center;
+}
+
+.membre{
+	color: hsl(324, 70%, 45%);
+	animation: wheelHueColor 10s infinite;
+	text-color: currentColor;
+}
+
+@keyframes wheelHueColor {
+  from, to { color: hsl(324, 70%, 45%); }
+  10%      { color: hsl(360, 65%, 45%); }
+  20%      { color: hsl( 36, 80%, 45%); }
+  30%      { color: hsl( 72, 75%, 35%); }
+  40%      { color: hsl(108, 65%, 35%); }
+  50%      { color: hsl(144, 75%, 35%); }
+  60%      { color: hsl(180, 75%, 35%); }
+  70%      { color: hsl(216, 60%, 45%); }
+  80%      { color: hsl(252, 65%, 50%); }
+  90%      { color: hsl(288, 60%, 40%); }
+}
+
+
+
 
 .blocRond {
 	background-color: #FCEDFC;
@@ -102,7 +147,7 @@ h3 {
 
 /* Groupes */	
 
-body {text-align: center;} /* Pour centrer dans IE */
+
 
 table {
 	background-color: none;
@@ -197,7 +242,7 @@ table {
 
 /* Bandeau LOGOS*/
 body{
-margin:0px;
+	margin:0px;
 }
 #header{
 height:120px;
@@ -215,19 +260,19 @@ background:#F1EDF1;
 
 
 /* RESPONSIVE */
-@media (min-width: 480px) and (max-width: 780px)
+@media (min-width: 300px) and (max-width: 780px)
 {
 .linear-gradient {
-  h1 {
-    font-size: 2.5em;
-  }
+  body {
+       font-size: 100%;
+   }
 }	
 }
 
 @media (min-width: 781px) and (max-width: 979px)
 {
 .linear-gradient {
-  
+
 }	
 }
 

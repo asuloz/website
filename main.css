@@ -7,7 +7,6 @@ body {
 	text-align: center;
 } /* Pour centrer dans IE */
 
-
 .linear-gradient {
   background: linear-gradient(150deg, #F0C9F8, white);
 }
@@ -111,14 +110,23 @@ h4 {
 
 @keyframes wheelHueColor {
   from, to { color: hsl(324, 70%, 45%); }
-  10%      { color: hsl(360, 65%, 45%); }
-  20%      { color: hsl( 36, 80%, 45%); }
-  30%      { color: hsl( 72, 75%, 35%); }
-  40%      { color: hsl(108, 65%, 35%); }
-  50%      { color: hsl(144, 75%, 35%); }
-  60%      { color: hsl(180, 75%, 35%); }
-  70%      { color: hsl(216, 60%, 45%); }
-  80%      { color: hsl(252, 65%, 50%); }
+  5%      { color: hsl(360, 65%, 45%); }
+  10%      { color: hsl( 36, 80%, 45%); }
+  15%      { color: hsl( 72, 75%, 35%); }
+  20%      { color: hsl(108, 65%, 35%); }
+  25%      { color: hsl(144, 75%, 35%); }
+  30%      { color: hsl(180, 75%, 35%); }
+  35%      { color: hsl(216, 60%, 45%); }
+  40%      { color: hsl(252, 65%, 50%); }
+  45%      { color: hsl(288, 60%, 40%); }
+  50%      { color: hsl(360, 65%, 45%); }
+  55%      { color: hsl( 36, 80%, 45%); }
+  60%      { color: hsl( 72, 75%, 35%); }
+  65%      { color: hsl(108, 65%, 35%); }
+  70%      { color: hsl(144, 75%, 35%); }
+  75%      { color: hsl(180, 75%, 35%); }
+  80%      { color: hsl(216, 60%, 45%); }
+  85%      { color: hsl(252, 65%, 50%); }
   90%      { color: hsl(288, 60%, 40%); }
 }
 
